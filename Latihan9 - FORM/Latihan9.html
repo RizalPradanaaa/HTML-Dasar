@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Penggunaan Tag Form</title>
+</head>
+<body>
+	<h3>Penggunaan element " input "</h3>
+	<form>
+		<!-- type="text" sebagai username/email atau nama -->
+		<label for="1">Username :</label>
+		<input type="text" id="1">
+	<br>
+		<!-- type="Password" sebagai password -->
+		<label for="2">Password :</label>
+		<input type="Password" id="2">
+	<br>
+		<!-- type="radio" (ligkarann) sebagai pilihan, untuk (name="jenisk") harus sama,
+		agar bisa memilih salah satu, bila tidak diberi akan memilih keduanya atau semua-->
+		<input type="radio" id="lk" name="jenis kelamin"><label for="lk">Laki-Laki</label>
+		<input type="radio" id="pr" name="jenis kelamin"><label for="pr">Perempuan</label>
+	<br>
+		<!-- type="checkbox" (Kotak) hampir sama dengan type="radio'-->
+		<input type="checkbox" id="hobi1"><label for="hobi1">Mengoding</label>
+		<input type="checkbox" id="hobi2"><label for="hobi2">Ngopi</label>
+		<input type="checkbox" id="hobi3"><label for="hobi3">Tidur</label>
+		<input type="checkbox" id="hobi4"><label for="hobi4">Rebahan</label>
+	<br>
+	<textarea></textarea>
+	<br>
+	<select>
+		<option>1</option>
+	</select>
+	<br>
+		<!-- type="submit" sebagai submit tapi tidak disarankan karena ada yang lebih baik -->
+		<input type="submit" value="Login">
+	<br>
+		<!-- Dibawah ini adl element button, lebih dianjurkan menggunakan ini untuk submit -->
+		<button type="submit">Login</button>
+	</form>
+
+</body>
+</html>
